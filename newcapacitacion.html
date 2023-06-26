@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Neueva Capacitacion</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crear Nueva Capacitacion</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nit" name="nit" required>
+                <br>
+                <label for="descripcion">Descripcion:</label>
+                <input type="text" id="descripcion" name="descripcion" required>
+                <br>
+                <label for="progreso">Estado:</label>
+                <select id="progreso">
+                    <option value="SIN_INICIAR">Sin Iniciar</option>
+                    <option value="EN_PROCESO">En Proceso</option>
+                    <option value="FINALIZADO">Finalizado</option>
+                  </select>
+                <br>
+                <label for="resultado">Resultado:</label>
+                <input type="text" id="resultado" name="resultado" required>
+                <button type="submit">Agregar</button>
+                <a href="listado.html">&#x2190; Regresar</a>
+            </form>
+    </div>
+</body>
+</html>
