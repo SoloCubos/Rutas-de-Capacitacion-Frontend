@@ -75,3 +75,21 @@ label {
 	font-weight: lighter;
     
 }
+.links-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    color: #838383;
+  }
